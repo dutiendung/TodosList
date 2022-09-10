@@ -63,3 +63,12 @@ li.completed span {
   color: #aaaa;
   text-decoration: line-through;
 }
+@media screen and (max-width: 700px) {
+  
+  .container {
+    width: 350px;
+  }
+  form input {
+    font-size: 20px;
+  }
+}
